@@ -1,0 +1,40 @@
+var nome = "Rafael Rodrigo";
+var idade = 29;
+// alert(nome + " tem "+idade+" anos.");
+var idade2 = 10;
+var frase = "Japão é o melhor time";
+var n1 = 5;
+var n2 = 3;
+// alert(idade + idade2);
+console.log(nome);
+console.log(idade+idade2);
+console.log(frase.replace("Japão", "Brasil"));
+// alert(frase.replace("Japão", "Brasil"));
+console.log(frase.toUpperCase());
+console.log(frase.toLowerCase());
+
+var lista = ['maça','pera','laranja'];
+console.log(lista);
+// alert(lista[0]);
+console.log(lista[2]);
+lista.push('uva');
+console.log(lista);
+lista.pop();
+console.log(lista);
+console.log(lista.length);
+console.log(lista.reverse());
+console.log(lista.toString);
+console.log('');
+console.log(lista[0]);
+console.log(lista.toString()[0]);
+console.log(lista.join(" - "));
+console.log(lista.join(" | "));
+
+var fruta = {nome:"maça", cor:"vermelha"};
+console.log(fruta);
+console.log(fruta.nome);
+
+var frutas = [{nome:"maça",cor:"vermelha"}, {nome:'uva',cor:'roxo'}];
+console.log(frutas);
+console.log(frutas[1].nome);
+console.log(frutas[0].cor);
